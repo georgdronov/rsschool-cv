@@ -44,4 +44,20 @@ Basic **CSS**
 </html>
 ``` 
 
+## Work experience
+
+While no experience
+
+## Education
+
+Branch of **BNTU**
+"MINSK STATE TECHNOLOGICAL COLLEGE"
+
+**HTML Academy**
+
+## English
+
+**A2** 
+I am currently attending a teatcher
+
 
