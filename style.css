@@ -26,6 +26,12 @@ body {
     padding: 0;
 }
 
+.wrapper{
+    max-width: 1060px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
 h2 {
     font-size: 20px;
     font-weight: 600;
@@ -50,7 +56,7 @@ h2 {
 
 .nav_list {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     list-style: none;
@@ -62,10 +68,14 @@ h2 {
     text-transform: uppercase;
 }
 
-.nav_item a{
+.nav_item a {
     color: aliceblue;
     text-decoration: none;
     transition: 0.5s;
+}
+
+.nav_item a:hover {
+    color: rgb(83, 83, 255);
 }
 
 /* Header style end*/
@@ -77,17 +87,16 @@ h2 {
     flex-wrap: wrap;
 }
 
+
+
+
 .section {
     width: 50%;
     display: flex;
     margin: 50px 0;
 }
 
-@media (max-width: 768px) {
-    .section {
-        width: 100%;
-    }
-}
+
 
 .profileTitle {
     width: 100%;
@@ -127,3 +136,45 @@ h2 {
     width: 100px;
 }
 /* footer style end*/
+
+/* media start */
+
+@media screen and (max-width: 1200px) {
+    code {
+   font-size: 1.5vh;
+   transition: .2s;
+    }
+
+
+}
+
+@media (max-width: 768px) {
+    .section {
+        width: 50%;
+    }
+}
+
+@media (max-width: 600px) {
+    .section {
+        width: 100%;
+    }
+
+    code {
+        font-size: 1.4vh;
+        transition: .2s;
+     }
+
+     #code {
+        margin-bottom: -118px;
+     }
+
+
+
+@media (max-width: 425px) {
+    code {
+        font-size: 1.4vh;
+        transition: .2s;
+     }
+}
+
+}

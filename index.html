@@ -20,14 +20,15 @@
                     <li class="nav_item"><a href="#projects" class="nav_link">projects</a></li>
                     <li class="nav_item"><a href="#education" class="nav_link">education</a></li>
                     <li class="nav_item"><a href="#english" class="nav_link">english</a></li>
-                    <li class="nav_item"><a href="#code" class="nav_link">code</a></li>
+                    <!-- <li class="nav_item"><a href="#code" class="nav_link">code</a></li> -->
                 </ul>
             </nav>
         </div>
-    </header>
+        </header>
 
     <main class="main">
-           <div class="container main-container">
+        <div class="wrapper">
+           <section class="container main-container">
                 <section class="profileTitle" id="profile">
                     <div class="profile-content">
                         <div class="profile-text">
@@ -38,102 +39,106 @@
 
                     </div>   
                 </section>
+            
+                    <section class="section" id="contacts">
+                        <div class="contact-text">
+                            <h2 class="section-title">
+                                Contacts
+                            </h2>
+                            <ul class="contact-list">
+                                <li><b>Phone:</b> +375 25 733-24-83</li>
+                                <li><b>Location:</b> Minsk, Belarus</li>
+                                <li><b>Discord:</b> Alpharius#0649</li>
+                                <li><b>GitHub:</b> <a href="https://github.com/georgdronov" class="gitLink">georgdronov</a></li>
+                            </ul>
+                        </div>
+                    </section>
 
-                <section class="section" id="contacts">
-                    <div class="contact-text">
-                        <h2 class="section-title">
-                            Contacts
-                        </h2>
-                        <ul class="contact-list">
-                            <li><b>Phone:</b> +375 25 733-24-83</li>
-                            <li><b>Location:</b> Minsk, Belarus</li>
-                            <li><b>Discord:</b> Alpharius#0649</li>
-                            <li><b>GitHub:</b> <a href="https://github.com/georgdronov" class="gitLink">georgdronov</a></li>
-                        </ul>
+                    <section class="section" id="summary">
+                        <div class="summary-text">
+                            <h2 class="section-title">About me</h2>
+                            <p>Team player, I easily find a common language with colleagues <br> and know how to get to the bottom of the problem.</p> 
+        
+                               <p>  My goal is to develop the latest solutions in IT and front-end.</p> 
+                                
+                                <p></p> Solve problems that have not been solved before me.</p> 
+                                
+                                <p></p> Study, gain new knowledge and apply it.</p>
+                        </div>
+                    </section>
+
+                    <section class="section" id="skills">
+                    <div class="skills-text">
+                            <h2 class="section-title">Skills</h2>
+                            <ul class="skill-list">
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JS</li>
+                                <li>GitHub</li>
+                            </ul>
                     </div>
-                </section>
+                    </section>
 
-                <section class="section" id="summary">
-                    <div class="summary-text">
-                        <h2 class="section-title">About me</h2>
-                        <p>Team player, I easily find a common language with colleagues <br> and know how to get to the bottom of the problem. <br>
-    
-                            My goal is to develop the latest solutions in IT and front-end. <br>
-                            
-                            Solve problems that have not been solved before me. <br>
-                            
-                            Study, gain new knowledge and apply it.</p>
-                    </div>
-                </section>
+                    <section class="section" id="courses">
+                        <div class="courses-text">
+                            <h2 class="section-title">Courses</h2>
+                            <p>HTML Academy</p>
+                            <p>RS School</p>
+                        </div>
+                    </section>
+                    
+                    <!-- <section class="section" id="code">
+                        <div class="code-text">
+                            <h2 class="section-title">Code example</h2>
+                                <pre>
+                                    <code>
+    let getNumber = prompt( 'Введите число', [20] );
 
-                <section class="section" id="skills">
-                   <div class="skills-text">
-                        <h2 class="section-title">Skills</h2>
-                        <ul class="skill-list">
-                            <li><b>Basic</b> HTML</li>
-                            <li><b>Basic</b> CSS</li>
-                            <li><b>Basic</b> JS</li>
-                        </ul>
-                   </div>
-                </section>
-
-                <section class="section" id="courses">
-                    <div class="courses-text">
-                        <h2 class="section-title">Courses</h2>
-                        <p>HTML Academy</p>
-                        <p>RS School</p>
-                    </div>
-                </section>
-
-                <section class="section" id="projects">
-                    <div class="projects-text">
-                        <h2 class="section-title">Projects</h2>
-                        <p><a href="https://mectech.ru/" class="link">MecTech</a></p>
-                        <p><a href="https://sipp-prom.ru/" class="link">SippProm</a></p>
-                        <p><a href="https://www.codewars.com/users/rsschool_e2f632497bf52c5f" class="link">Code Wars</a></p>
-                        <p><a href="https://georgdronov.github.io/finance-calculator" class="link">Finance calculator</a></p>
-                        <p><a href="https://georgdronov.github.io/3D_Scrolling/" class="link">3D Scrolling</a></p>
-                    </div>
-                </section>
-
-                <section class="section" id="code">
-                    <div class="code-text">
-                        <h2 class="section-title">Code example</h2>
-                            <pre>
-                                <code>
-let getNumber = prompt( 'Введите число', [20] );
-
-function isPrime () {
-    for ( let i = 2; i < getNumber; i++ ) {
-        if ( getNumber % i === 0 || getNumber === 1 ) {
-            return alert( 'Не простое число' );
-        } else {
-            return alert( 'Простое число' )
+    function isPrime () {
+        for ( let i = 2; i < getNumber; i++ ) {
+            if ( getNumber % i === 0 || getNumber === 1 ) {
+                return alert( 'Не простое число' );
+            } else {
+                return alert( 'Простое число' )
+            }
         }
     }
-}
-                                </code>
-                            </pre>
-                    </div>
-                </section>
+                                    </code>
+                                </pre>
+                        </div>
+                    </section> -->
+
+                    <section class="section" id="projects">
+                        <div class="projects-text">
+                            <h2 class="section-title">Projects</h2>
+                            <p><a href="https://mectech.ru/" class="link">MecTech</a></p>
+                            <p><a href="https://sipp-prom.ru/" class="link">SippProm</a></p>
+                            <p><a href="https://georgdronov.github.io/JapanTravel/" class="link">Japan Travel</a></p>
+                            <p><a href="https://georgdronov.github.io/Text-Counter-in-JavaScript/" class="link">
+                                Text-Counter-in-JavaScript</a></p>
+                                <p><a href="https://georgdronov.github.io/3D_Scrolling/" class="link">3D Scrolling</a></p>
+                            <p><a href="https://www.codewars.com/users/rsschool_e2f632497bf52c5f" class="link">Code Wars</a></p>
+                        </div>
+                    </section>
+
+                    
 
 
-                <section class="section" id="languages">
-                    <div class="languages-text">
-                        <h2 class="section-title">English</h2>
-                        <p><b>B1</b></p>
-                    </div>
-                </section>
+                    <section class="section" id="languages">
+                        <div class="languages-text">
+                            <h2 class="section-title">English</h2>
+                            <p><b>B1</b></p>
+                        </div>
+                    </section>
 
 
-                <section class="section" id="education">
-                    <div class="education-text">
-                        <h2 class="section-title">Education</h2>
-                        <p>Branch of <b>BNTU</b> “MINSK STATE TECHNOLOGICAL COLLEGE” <br>
-                    </div>
-                </section>
-
-           </div>
+                    <section class="section" id="education">
+                        <div class="education-text">
+                            <h2 class="section-title">Education</h2>
+                            <p>Branch of <b>BNTU</b> “MINSK STATE TECHNOLOGICAL COLLEGE” <br>
+                        </div>
+                    </section>
+        </div>            
     </main>
  
     <footer class="footer">
